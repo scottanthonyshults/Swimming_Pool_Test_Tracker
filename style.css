@@ -3,11 +3,16 @@ th,
 td {
   border: 1px solid black;
   border-collapse: collapse;
+  text-align: center;
 }
 
 th,
 td {
   padding: 5px;
+}
+
+td {
+  font-size: 0.8em;
 }
 
 #date {
@@ -20,4 +25,13 @@ td {
 
 tr:nth-child(even) {
   background-color: #D6EEEE;
+}
+
+h1,
+#dateTimeContainer {
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
 }
